@@ -1,0 +1,13 @@
+name: dev push PR
+
+on:
+ push:
+   branches:
+     - dev
+jobs:
+  pr-main:
+    runs-on: [self-hosted]
+    steps:
+      - name: just echo
+        run: |
+          echo "I am running"
