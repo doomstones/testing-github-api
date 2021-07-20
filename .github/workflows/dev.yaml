@@ -11,3 +11,4 @@ jobs:
       - name: just echo
         run: |
           echo "I am running"
+          as
